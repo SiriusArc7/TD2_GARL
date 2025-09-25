@@ -4,3 +4,4 @@ https://siriusarc7.github.io/TD2_GARL/
 - 日本語も対応！
 
 - updated Sep. 25, 2025
+- Contact: @SiriusArc7

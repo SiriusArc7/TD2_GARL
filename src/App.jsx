@@ -31,14 +31,14 @@ function App() {
   const translations = {
     en: {
       title: "GARL",
-      subtitle: "Gear Attributes Reverse-Lookup",
+      subtitle: "Gear Attributes Reverse-Lookup by @SiriusArc7",
       searchPlaceholder: "Search attributes...",
       hideMatching: "Hide non-matching items",
       clearSearch: "Clear search"
     },
     ja: {
       title: "GARL",
-      subtitle: "装備特性逆引きツール",
+      subtitle: "装備特性逆引きツール 製作者: @SiriusArc7",
       searchPlaceholder: "装備特性を検索...",
       hideMatching: "一致しない装備を非表示",
       clearSearch: "検索をクリア"
@@ -183,20 +183,28 @@ function App() {
             const hasSelected = Object.keys(attrs).some(attr => selectedAttrs.includes(attr));
             const backgroundImage = equipmentBackgrounds[name];
             return (
-              <div key={`${type}-${name}`} className={type} style={{width: '220px', height: '150px', border: `1px solid ${hasSelected ? 'yellow' : 'black'}`, padding: '10px', margin: '5px'}}>
+              <div key={`${type}-${name}`} className={type} style={{
+                width: '200px',
+                height: '150px',
+                border: `1px solid ${hasSelected ? 'yellow' : 'black'}`,
+                padding: '10px',
+                margin: '5px',
+                position: 'relative',
+                backgroundImage: backgroundImage ? `url(${backgroundImage})` : 'none',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundBlendMode: backgroundImage ? 'lighten' : 'normal'
+              }}>
                 <div className="equipment-name" style={{
-                  backgroundImage: backgroundImage ? `url(${backgroundImage})` : 'none',
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  backgroundRepeat: 'no-repeat',
                   padding: '8px',
                   borderRadius: '4px',
-                  textShadow: backgroundImage ? '1px 1px 2px rgba(0,0,0,0.8)' : 'none',
                   minHeight: '30px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  textAlign: 'center'
+                  textAlign: 'center',
+                  marginBottom: '8px'
                 }}>{name}</div>
               {Object.entries(attrs).map(([attr, val]) => (
                 <div key={attr} style={{cursor: 'pointer', textDecoration: selectedAttrs.includes(attr) ? 'underline' : 'none'}} onClick={() => setSelectedAttrs(prev => prev.includes(attr) ? prev.filter(a => a !== attr) : [...prev, attr])}>{attr}: {val}</div>
