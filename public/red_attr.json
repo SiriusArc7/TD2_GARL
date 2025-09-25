@@ -1,0 +1,94 @@
+{
+  "0": {
+    "attr": "Weapon Damage",
+    "core": "red"
+  },
+  "1": {
+    "attr": "Pistol Damage",
+    "core": "red"
+  },
+  "2": {
+    "attr": "Assault Rifle Damage",
+    "core": "red"
+  },
+  "3": {
+    "attr": "SMG Damage",
+    "core": "red"
+  },
+  "4": {
+    "attr": "Shotgun Damage",
+    "core": "red"
+  },
+  "5": {
+    "attr": "LMG Damage",
+    "core": "red"
+  },
+  "6": {
+    "attr": "Marksman Rifle Damage",
+    "core": "red"
+  },
+  "7": {
+    "attr": "Rifle Damage",
+    "core": "red"
+  },
+  "8": {
+    "attr": "Marksman Rifle Damage",
+    "core": "red"
+  },
+  "9": {
+    "attr": "Signature Weapon Damage",
+    "core": "red"
+  },
+  "10": {
+    "attr": "Weapon Handling",
+    "core": "red"
+  },
+  "11": {
+    "attr": "Critical Hit Chance",
+    "core": "red"
+  },
+  "12": {
+    "attr": "Critical Hit Damage",
+    "core": "red"
+  },
+  "13": {
+    "attr": "Headshot Damage",
+    "core": "red"
+  },
+  "14": {
+    "attr": "Damage to Armor",
+    "core": "red"
+  },
+  "15": {
+    "attr": "Damage to Health",
+    "core": "red"
+  },
+  "16": {
+    "attr": "Stability",
+    "core": "red"
+  },
+  "17": {
+    "attr": "Accuracy",
+    "core": "red"
+  },
+  "18": {
+    "attr": "Rate of Fire %",
+    "core": "red"
+  },
+  "19": {
+    "attr": "Reload Speed %",
+    "core": "red"
+  },
+  "20": {
+    "attr": "Magazine Size %",
+    "core": "red"
+  },
+  "21": {
+    "attr": "Ammo Capacity",
+    "core": "red"
+  },
+    "22": {
+        "attr": "Explosive Damage",
+        "core": "red"
+    }
+}

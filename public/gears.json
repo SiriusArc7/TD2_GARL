@@ -1,0 +1,108 @@
+{
+  "Aces & Eights": {
+    "Marksman Rifle Damage": "15%",
+    "Rifle Damage": "15%",
+    "Headshot Damage": "30%"
+  },
+  "Aegis": {
+    "Health": "70%",
+    "Total Armor": "15%"
+  },
+  "Breaking Point": {
+    "Rifle Damage": "25%",
+    "Marksman Rifle Damage": "25%",
+    "Headshot Damage": "30%",
+    "Weapon Handling": "15%"
+  },
+  "Cavalier": {
+    "Hazard Protection": "30%",
+    "Repair Skills": "40%"
+  },
+  "Eclipse Protocol": {
+    "Status Effects": "15%",
+    "Skill Haste": "15%",
+    "Hazard Protection": "30%"
+  },
+  "Foundry Bulwark": {
+    "Total Armor": "10%",
+    "Armor Regeneration": "1%",
+    "Shield Health": "50%"
+  },
+  "Future Initiative": {
+    "Repair Skills": "30%",
+    "Skill Duration": "30%",
+    "Skill Haste": "15%"
+  },
+  "Hard Wired": {
+    "Skill Haste": "15%",
+    "Repair Skills": "30%",
+    "Skill Damage": "15%"
+  },
+  "Heartbreaker": {
+    "Assault Rifle Damage": "15%",
+    "LMG Damage": "15%",
+    "Weapon Handling": "15%"
+  },
+  "Hotshot": {
+    "Marksman Rifle Damage": "30%",
+    "Weapon Handling": "30%",
+    "Headshot Damage": "30%"
+  },
+  "Hunter's Fury": {
+    "SMG Damage": "15%",
+    "Shotgun Damage": "15%",
+    "Armor on Kill %": "20%",
+    "Health on Kill %": "50%"
+  },
+  "Measured Assembly": {
+    "Skill Haste": "15%",
+    "Repair Skills": "60%",
+    "Explosive Resistance": "40%"
+  },
+  "Negotiator's Dilemma": {
+    "Critical Hit Chance": "15%",
+    "Critical Hit Damage": "20%"
+  },
+  "Ongoing Directive": {
+    "Status Effects": "15%",
+    "Reload Speed": "30%"
+  },
+  "Refactor": {
+    "Status Effects": "15%",
+    "Skill Damage": "25%"
+  },
+  "Rigger": {
+    "Skill Haste": "15%",
+    "Skill Duration": "15%"
+  },
+  "Striker's Battlegear": {
+    "Weapon Handling": "15%",
+    "Rate of Fire %": "15%"
+  },
+  "System Corruption": {
+    "Armor on Kill %": "15%",
+    "Pulse Resistance": "40%",
+    "Disrupt Resistance": "40%"
+  },
+  "Tip of the Spear": {
+    "Signature Weapon Damage": "20%",
+    "Weapon Damage": "10%"
+  },
+  "Tipping Scales": {
+    "Magazine Size": "30%",
+    "LMG Damage": "30%"
+  },
+  "True Patriot": {
+    "Ammo Capacity": "30%",
+    "Magazine Size": "30%"
+  },
+  "Umbra Initiative": {
+    "Critical Hit Chance": "15%",
+    "Reload Speed": "30%"
+  },
+  "Virtuoso": {
+    "Weapon Handling": "15%",
+    "Magazine Size": "15%",
+    "Weapon Damage": "15%"
+  }
+}
