@@ -1,46 +1,13 @@
-{
-  "0": {
-    "attr": "Hazard Protection",
-    "core": "blue"
-  },
-  "1": {
-    "attr": "Armor on Kill %",
-    "core": "blue"
-  },
-  "2": {
-    "attr": "Health on Kill %",
-    "core": "blue"
-  },
-  "3": {
-    "attr": "Pulse Resistance",
-    "core": "blue"
-  },
-  "4": {
-    "attr": "Disrupt Resistance",
-    "core": "blue"
-  },
-  "5": {
-    "attr": "Total Armor",
-    "core": "blue"
-  },
-  "6": {
-    "attr": "Health",
-    "core": "blue"
-  },
-  "7": {
-    "attr": "Incoming Repairs",
-    "core": "blue"
-  },
-  "8": {
-    "attr": "Armor Regeneration",
-    "core": "blue"
-  },
-  "9": {
-    "attr": "Explosive Resistance",
-    "core": "blue"
-  },
-  "10": {
-    "attr": "Shock Resistance",
-    "core": "blue"
-  }
-}
+[
+    {"attr": "Hazard Protection"},
+    {"attr": "Armor on Kill %"},
+    {"attr": "Health on Kill %"},
+    {"attr": "Pulse Resistance"},
+    {"attr": "Disrupt Resistance"},
+    {"attr": "Total Armor"},
+    {"attr": "Health"},
+    {"attr": "Incoming Repairs"},
+    {"attr": "Armor Regeneration"},
+    {"attr": "Explosive Resistance"},
+    {"attr": "Shock Resistance"}
+]

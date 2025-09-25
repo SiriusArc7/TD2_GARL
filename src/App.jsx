@@ -13,38 +13,75 @@ function App() {
   const [gearSearchTerm, setGearSearchTerm] = useState('');
   const [equipmentBackgrounds, setEquipmentBackgrounds] = useState({});
 
+  // Language detection and translations
+  const [currentLanguage, setCurrentLanguage] = useState('en');
+
   useEffect(() => {
+    // Detect user's language
+    const userLang = navigator.language || navigator.userLanguage;
+    const urlParams = new URLSearchParams(window.location.search);
+    const selectedLang = urlParams.get('lang') ||
+                        localStorage.getItem('language') ||
+                        (userLang.startsWith('ja') ? 'ja' : 'en');
+
+    setCurrentLanguage(selectedLang);
+    localStorage.setItem('language', selectedLang);
+  }, []);
+
+  const translations = {
+    en: {
+      title: "GARL",
+      subtitle: "Gear Attributes Reverse-Lookup",
+      searchPlaceholder: "Search attributes...",
+      hideMatching: "Hide non-matching items",
+      clearSearch: "Clear search"
+    },
+    ja: {
+      title: "GARL",
+      subtitle: "装備特性逆引きツール",
+      searchPlaceholder: "装備特性を検索...",
+      hideMatching: "一致しない装備を非表示",
+      clearSearch: "検索をクリア"
+    }
+  };
+
+  const t = translations[currentLanguage] || translations.en;
+
+  useEffect(() => {
+    const baseUrl = import.meta.env.BASE_URL || '/';
+    const langSuffix = currentLanguage === 'ja' ? '_ja' : '';
+
     Promise.all([
-      fetch('/red_attr.json').then(res => res.json()),
-      fetch('/blu_attr.json').then(res => res.json()),
-      fetch('/yel_attr.json').then(res => res.json()),
-      fetch('/brands.json').then(res => res.json()),
-      fetch('/gears.json').then(res => res.json()),
-      fetch('/equipment-backgrounds.json').then(res => res.json())
+      fetch(`${baseUrl}red_attr${langSuffix}.json`).then(res => res.json()),
+      fetch(`${baseUrl}blu_attr${langSuffix}.json`).then(res => res.json()),
+      fetch(`${baseUrl}yel_attr${langSuffix}.json`).then(res => res.json()),
+      fetch(`${baseUrl}brands${langSuffix}.json`).then(res => res.json()),
+      fetch(`${baseUrl}gears${langSuffix}.json`).then(res => res.json()),
+      fetch(`${baseUrl}equipment-backgrounds.json`).then(res => res.json())
     ]).then(([redData, bluData, yelData, brandsData, gearsData, backgroundsData]) => {
       const allData = [
-        ...Object.values(redData),
-        ...Object.values(bluData),
-        ...Object.values(yelData)
+        ...redData.map(item => ({...item, core: 'red'})),
+        ...bluData.map(item => ({...item, core: 'blue'})),
+        ...yelData.map(item => ({...item, core: 'yellow'}))
       ].map((item, index) => ({...item, originalIndex: index}));
       setGearData(allData);
       setBrands(brandsData);
       setGears(gearsData);
       setEquipmentBackgrounds(backgroundsData);
     }).catch(error => console.error('Error loading data:', error));
-  }, []);
+  }, [currentLanguage]);
 
   return (
     <>
     <div class="title">
-      <h1>GARL</h1><h3>Tom Clancy's The Division 2 - Gear Attributes Reverse-Lookup</h3>
+      <h1>{t.title} - The Division 2 Gear Lookup</h1><h3>{t.subtitle}</h3>
     </div>
     <div class="main">
       <div class="gear-bonus">
-        <div style={{marginBottom: '10px', display: 'flex', gap: '8px'}}>
+        <div style={{marginBottom: '10px', display: 'flex', gap: '8px', alignItems: 'center'}}>
           <input
             type="text"
-            placeholder="Search attributes..."
+            placeholder={t.searchPlaceholder}
             value={gearSearchTerm}
             onChange={(e) => setGearSearchTerm(e.target.value)}
             style={{flex: 1, padding: '8px', fontSize: '14px'}}
@@ -60,11 +97,49 @@ function App() {
                 cursor: 'pointer',
                 fontSize: '14px'
               }}
-              title="Clear search"
+              title={t.clearSearch}
             >
               ×
             </button>
           )}
+          <div style={{display: 'flex', gap: '4px', marginLeft: '8px'}}>
+            <button
+              onClick={() => {
+                setCurrentLanguage('en');
+                localStorage.setItem('language', 'en');
+              }}
+              style={{
+                padding: '4px 8px',
+                backgroundColor: currentLanguage === 'en' ? '#007bff' : '#f0f0f0',
+                color: currentLanguage === 'en' ? 'white' : 'black',
+                border: '1px solid #ccc',
+                borderRadius: '4px',
+                cursor: 'pointer',
+                fontSize: '12px',
+                fontWeight: 'bold'
+              }}
+            >
+              EN
+            </button>
+            <button
+              onClick={() => {
+                setCurrentLanguage('ja');
+                localStorage.setItem('language', 'ja');
+              }}
+              style={{
+                padding: '4px 8px',
+                backgroundColor: currentLanguage === 'ja' ? '#007bff' : '#f0f0f0',
+                color: currentLanguage === 'ja' ? 'white' : 'black',
+                border: '1px solid #ccc',
+                borderRadius: '4px',
+                cursor: 'pointer',
+                fontSize: '12px',
+                fontWeight: 'bold'
+              }}
+            >
+              日本語
+            </button>
+          </div>
         </div>
         {gearData.filter(item =>
           gearSearchTerm === '' || item.attr.toLowerCase().includes(gearSearchTerm.toLowerCase())
@@ -75,14 +150,23 @@ function App() {
           if (!aSelected && bSelected) return 1;
           return a.originalIndex - b.originalIndex;
         }).map((item, index) => (
-          <button key={index} className={item.core} onClick={() => setSelectedAttrs(prev => prev.includes(item.attr) ? prev.filter(a => a !== item.attr) : [...prev, item.attr])}>{selectedAttrs.includes(item.attr) ? '✅' : ''}{item.attr}</button>
+          <button
+            key={index}
+            className={item.core}
+            onClick={() => setSelectedAttrs(prev => prev.includes(item.attr) ? prev.filter(a => a !== item.attr) : [...prev, item.attr])}
+            style={{
+              color: item.core === 'red' ? '#dc3545' :
+                     item.core === 'blue' ? '#007bff' :
+                     item.core === 'yellow' ? '#ffc107' : 'inherit'
+            }}
+          >{selectedAttrs.includes(item.attr) ? '✅' : ''}{item.attr}</button>
         ))}
       </div>
       <div class="selector">
         <div style={{marginBottom: '10px'}}>
           <label>
             <input type="checkbox" checked={showOnlyMatching} onChange={e => setShowOnlyMatching(e.target.checked)} />
-            Hide non-matching items
+            {t.hideMatching}
           </label>
         </div>
         <div style={{display: 'flex', flexWrap: 'wrap'}}>
@@ -123,26 +207,6 @@ function App() {
         </div>
       </div>
     </div>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

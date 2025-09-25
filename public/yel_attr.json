@@ -1,62 +1,17 @@
-{
-  "0": {
-    "attr": "Repair Skills",
-    "core": "yellow"
-  },
-  "1": {
-    "attr": "Burn Duration",
-    "core": "yellow"
-  },
-  "2": {
-    "attr": "Burn Damage",
-    "core": "yellow"
-  },
-  "3": {
-    "attr": "Status Effects",
-    "core": "yellow"
-  },
-  "4": {
-    "attr": "Skill Health",
-    "core": "yellow"
-  },
-  "5": {
-    "attr": "Skill Damage",
-    "core": "yellow"
-  },
-  "6": {
-    "attr": "Skill Haste",
-    "core": "yellow"
-  },
-  "7": {
-    "attr": "Skill Duration",
-    "core": "yellow"
-  },
-  "8": {
-    "attr": "Shield Health",
-    "core": "yellow"
-  },
-  "9": {
-    "attr": "Swap speed",
-    "core": "yellow"
-  },
-  "10": {
-    "attr": "Optimal Range",
-    "core": "yellow"
-  },
-  "11": {
-    "attr": "Swap speedArmor",
-    "core": "yellow"
-  },
-  "12": {
-    "attr": "Skill Tier",
-    "core": "yellow"
-   },
-  "13": {
-    "attr": "Skill Efficiency",
-    "core": "yellow"
-   },
-    "14": {
-        "attr": "Increased Threat",
-        "core": "yellow"
-     }  
-}
+[
+    {"attr": "Repair Skills"},
+    {"attr": "Burn Duration"},
+    {"attr": "Burn Damage"},
+    {"attr": "Status Effects"},
+    {"attr": "Skill Health"},
+    {"attr": "Skill Damage"},
+    {"attr": "Skill Haste"},
+    {"attr": "Skill Duration"},
+    {"attr": "Shield Health"},
+    {"attr": "Swap speed"},
+    {"attr": "Optimal Range"},
+    {"attr": "Swap speedArmor"},
+    {"attr": "Skill Tier"},
+    {"attr": "Skill Efficiency"},
+    {"attr": "Increased Threat"}
+]
