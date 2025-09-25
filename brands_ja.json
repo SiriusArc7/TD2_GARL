@@ -1,172 +1,172 @@
 {
   "5.11 Tactical": {
-    "Health": "30%",
-    "Incoming Repairs": "30%",
-    "Hazard Protection": "30%"
+    "HP": "30%",
+    "修復量": "30%",
+    "状態異常耐性": "30%"
   },
-  "Airaldi Holdings": {
-    "Marksman Rifle Damage": "10%",
-    "Headshot Damage": "13%",
-    "Damage to Armor": "5%"
+  "アイラルディホールディング": {
+    "マークスマンライフルダメージ": "10%",
+    "ヘッドショットダメージ上昇": "13%",
+    "アーマーダメージ": "5%"
   },
-  "Alps Summit Armaments": {
-    "Repair Skills": "18%",
-    "Skill Duration": "30%",
-    "Skill Haste": "30%"
+  "アルプスサミット・アーマメント": {
+    "スキル修復": "18%",
+    "スキル持続時間": "30%",
+    "スキルヘイスト": "30%"
   },
-  "Badger Tuff": {
-    "Shotgun Damage": "10%",
-    "Total Armor": "5%",
-    "Armor on Kill %": "15%"
+  "バッジャー・タフ": {
+    "ショットガンダメージ": "10%",
+    "合計アーマー": "5%",
+    "キルによるアーマー": "15%"
   },
-  "Belstone Armory": {
-    "Armor Regeneration": "1%",
-    "Armor on Kill %": "10%",
-    "Incoming Repairs": "45%"
+  "ベルストーンアーマリー": {
+    "アーマー回復": "+1",
+    "キルによるアーマー": "10%",
+    "修復量": "45%"
   },
-  "Brazos de Arcabuz": {
-    "Skill Haste": "10%",
-    "Skill Tier": "1%",
-    "Magazine Size": "50%"
+  "ブラソス・デ・アルカブース": {
+    "スキルヘイスト": "10%",
+    "スキルクラス": "+1",
+    "装弾数": "50%"
   },
-  "Ceska Vyroba s.r.o.": {
-    "Critical Hit Chance": "8%",
-    "Hazard Protection": "20%",
-    "Health": "90%"
+  "チェスカ・ヴィーロバ社": {
+    "クリティカル率": "8%",
+    "状態異常耐性": "20%",
+    "HP": "90%"
   },
-  "China Light Industries Corporation": {
-    "Explosive Damage": "15%",
-    "Skill Haste": "20%",
-    "Status Effects": "25%"
+  "チャイナ・ライトインダストリー社": {
+    "爆薬ダメージ": "15%",
+    "スキルヘイスト": "20%",
+    "ステータス効果": "25%"
   },
-  "Douglas & Harding": {
-    "Pistol Damage": "20%",
-    "Stability": "30%",
-    "Accuracy": "50%"
+  "ダグラス&ハーディング": {
+    "ピストルダメージ": "20%",
+    "安定性": "30%",
+    "命中率": "50%"
   },
-  "Electrique": {
-    "Status Effects": "10%",
-    "Shock Resistance": "20%",
-    "SMG Damage": "30%"
+  "エレクトリック": {
+    "ステータス効果": "10%",
+    "ショック耐性": "20%",
+    "SMGダメージ": "30%"
   },
-  "Empress International": {
-    "Skill Health": "10%",
-    "Skill Damage": "10%",
-    "Skill Efficiency": "8%"
+  "エンプレス・インターナショナル": {
+    "スキルHP": "10%",
+    "スキルダメージ": "10%",
+    "スキル効率": "8%"
   },
-  "Fenris Group AB": {
-    "Assault Rifle Damage": "10%",
-    "Reload Speed": "30%",
-    "Stability": "50%"
+  "フェンリスグループ社": {
+    "アサルトライフルダメージ": "10%",
+    "リロード速度": "30%",
+    "安定性": "50%"
   },
-  "Gila Guard": {
-    "Total Armor": "5%",
-    "Health": "60%",
-    "Armor Regeneration": "2%"
+  "ギラ・ガード": {
+    "合計アーマー": "5%",
+    "HP": "60%",
+    "アーマー回復": "2%"
   },
-  "Golan Gear Ltd": {
-    "Status Effects": "10%",
-    "Armor Regeneration": "1.5%",
-    "Total Armor": "10%"
+  "ゴラン・ギア": {
+    "ステータス効果": "10%",
+    "アーマー回復": "1.5%",
+    "合計アーマー": "10%"
   },
-  "Grupo Sombra S.A.": {
-    "Critical Hit Damage": "13%",
-    "Explosive Damage": "20%",
-    "Headshot Damage": "13%"
+  "グルーポソンブラ社": {
+    "クリティカルダメージ": "13%",
+    "爆薬ダメージ": "20%",
+    "ヘッドショットダメージ上昇": "13%"
   },
-  "Habsburg Guard": {
-    "Headshot Damage": "13%",
-    "Marksman Rifle Damage": "20%",
-    "Status Effects": "25%"
+  "ハプスブルクガード": {
+    "ヘッドショットダメージ上昇": "13%",
+    "マークスマンライフルダメージ": "20%",
+    "ステータス効果": "25%"
   },
-  "Hana-U Corporation": {
-    "Skill Haste": "10%",
-    "Skill Damage": "10%",
-    "Weapon Damage": "15%"
+  "ハナウコーポレーション": {
+    "スキルヘイスト": "10%",
+    "スキルダメージ": "10%",
+    "武器ダメージ上昇": "15%"
   },
-  "Imminence Armaments": {
-    "Weapon Damage": "5%",
-    "Increased Threat": "100%",
-    "Pistol Damage": "60%"
+  "緊急装備": {
+    "武器ダメージ上昇": "5%",
+    "脅威上昇": "100%",
+    "ピストルダメージ": "60%"
   },
-  "Legatus S.P.A.": {
-    "Swap Speed": "30%",
-    "Optimal Range": "50%",
-    "Weapon Damage": "15%"
+  "レガトゥス S.p.A": {
+    "切り替え速度": "30%",
+    "最適射程": "50%",
+    "武器ダメージ上昇": "15%"
   },
-  "Lengmo": {
-    "Explosive Resistance": "20%",
-    "Skill Health": "20%",
-    "LMG Damage": "30%"
+  "冷漠": {
+    "爆発物耐性": "20%",
+    "スキルHP": "20%",
+    "LMGダメージ": "30%"
   },
-  "Murakami Industries": {
-    "Skill Duration": "15%",
-    "Repair Skills": "35%",
-    "Skill Damage": "18%"
+  "ムラカミインダストリーズ": {
+    "スキル持続時間": "15%",
+    "スキル修復": "35%",
+    "スキルダメージ": "18%"
   },
-  "Overlord Armaments": {
-    "Rifle Damage": "10%",
-    "Accuracy": "30%",
-    "Weapon Handling": "30%"
+  "オーバーロード・アーマメント": {
+    "ライフルダメージ": "10%",
+    "命中率": "30%",
+    "武器ハンドリング": "30%"
   },
-  "Palisade Steelworks": {
-    "Armor on Kill %": "10%",
-    "Health": "60%",
-    "Skill Tier": "1%"
+  "パリセイドスチールワーク": {
+    "キルによるアーマー": "10%",
+    "HP": "60%",
+    "スキルクラス": "+1"
   },
-  "Petrov Defense Group": {
-    "LMG Damage": "10%",
-    "Weapon Handling": "15%",
-    "Ammo Capacity": "50%"
+  "ペトロフ・ディフェンス・グループ": {
+    "LMGダメージ": "10%",
+    "武器ハンドリング": "15%",
+    "弾薬数": "50%"
   },
-  "Providence Defense": {
-    "Headshot Damage": "13%",
-    "Critical Hit Chance": "8%",
-    "Critical Hit Damage": "13%"
+  "プロビデンスディフェンス": {
+    "ヘッドショットダメージ上昇": "13%",
+    "クリティカル率": "8%",
+    "クリティカルダメージ": "13%"
   },
-  "Richter & Kaiser GmbH": {
-    "Incoming Repairs": "15%",
-    "Explosive Resistance": "40%",
-    "Repair Skills": "52%"
+  "リヒター&カイザー社": {
+    "修復量": "15%",
+    "爆発物耐性": "40%",
+    "スキル修復": "52%"
   },
-  "Shiny Monkey Gear": {
-    "Skill Duration": "15%",
-    "Skill Efficiency": "5%",
-    "Repair Skills": "52%"
+  "シャイニーモンキー": {
+    "スキル持続時間": "15%",
+    "スキル効率": "5%",
+    "スキル修復": "52%"
   },
-  "Sokolov Concern": {
-    "SMG Damage": "10%",
-    "Critical Hit Damage": "13%",
-    "Critical Hit Chance": "8%"
+  "ソコロフ社": {
+    "SMGダメージ": "10%",
+    "クリティカルダメージ": "13%",
+    "クリティカル率": "8%"
   },
-  "Urban Lookout": {
-    "Accuracy": "10%",
-    "Skill Duration": "30%",
-    "Marksman Rifle Damage": "30%"
+  "アーバンルックアウト": {
+    "命中率": "10%",
+    "スキル持続時間": "30%",
+    "マークスマンライフルダメージ": "30%"
   },
-  "Uzina Getica": {
-    "Total Armor": "5%",
-    "Armor on Kill %": "10%",
-    "Hazard Protection": "30%"
+  "ウジーナゲティカ": {
+    "合計アーマー": "5%",
+    "キルによるアーマー": "10%",
+    "状態異常耐性": "30%"
   },
-  "Walker, Harris & Co.": {
-    "Weapon Damage": "5%",
-    "Damage to Armor": "5%",
-    "Damage to Health": "10%"
+  "ウォーカー・ハリス社": {
+    "武器ダメージ上昇": "5%",
+    "アーマーダメージ": "5%",
+    "HPへのダメージ": "10%"
   },
-  "Wyvern Wear": {
-    "Skill Damage": "8%",
-    "Status Effects": "18%",
-    "Skill Duration": "45%"
+  "ワイバーンウェア": {
+    "スキルダメージ": "8%",
+    "ステータス効果": "18%",
+    "スキル持続時間": "45%"
   },
-  "Yaahl Gear": {
-    "Hazard Protection": "10%",
-    "Weapon Damage": "10%",
-    "Pulse Resistance": "40%"
+  "ヤールギア": {
+    "状態異常耐性": "10%",
+    "武器ダメージ上昇": "10%",
+    "Pulse耐性": "40%"
   },
   "Zwiadowka Sp. z o.o.": {
-    "Magazine Size": "15%",
-    "Rifle Damage": "20%",
-    "Weapon Handling": "30%"
+    "装弾数": "15%",
+    "ライフルダメージ": "20%",
+    "武器ハンドリング": "30%"
   }
 }

@@ -67,6 +67,11 @@
     "Status Effects": "15%",
     "Reload Speed": "30%"
   },
+  "Ortiz: Exuro" : {
+    "Burn Duration" : "20%",
+    "Skill Health" : "15%",
+    "Burn Damage" : "40%"
+  },
   "Refactor": {
     "Status Effects": "15%",
     "Skill Damage": "25%"

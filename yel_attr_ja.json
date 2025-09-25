@@ -58,5 +58,13 @@
     "14": {
         "attr": "Increased Threat",
         "core": "yellow"
+     },
+    "15": {
+        "attr": "Burn Duration",
+        "core": "yellow"
+     },
+    "16": {
+        "attr": "Burn Damage",
+        "core": "yellow"
      }
 }

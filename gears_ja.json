@@ -1,108 +1,113 @@
 {
-  "Aces & Eights": {
-    "Marksman Rifle Damage": "15%",
-    "Rifle Damage": "15%",
-    "Headshot Damage": "30%"
+  "エース&エイト": {
+    "マークスマンライフルダメージ": "15%",
+    "ライフルダメージ": "15%",
+    "ヘッドショットダメージ上昇": "30%"
   },
-  "Aegis": {
-    "Health": "70%",
-    "Total Armor": "15%"
+  "イージス": {
+    "HP": "70%",
+    "合計アーマー": "15%"
   },
-  "Breaking Point": {
-    "Rifle Damage": "25%",
-    "Marksman Rifle Damage": "25%",
-    "Headshot Damage": "30%",
-    "Weapon Handling": "15%"
+  "ブレイキングポイント": {
+    "ライフルダメージ": "25%",
+    "マークスマンライフルダメージ": "25%",
+    "ヘッドショットダメージ上昇": "30%",
+    "武器ハンドリング": "15%"
   },
-  "Cavalier": {
-    "Hazard Protection": "30%",
-    "Repair Skills": "40%"
+  "キャバリエ": {
+    "状態異常耐性": "30%",
+    "スキル修復": "40%"
   },
-  "Eclipse Protocol": {
-    "Status Effects": "15%",
-    "Skill Haste": "15%",
-    "Hazard Protection": "30%"
+  "エクリプスプロトコル": {
+    "ステータス効果": "15%",
+    "スキルヘイスト": "15%",
+    "状態異常耐性": "30%"
   },
-  "Foundry Bulwark": {
-    "Total Armor": "10%",
-    "Armor Regeneration": "1%",
-    "Shield Health": "50%"
+  "ファウンダリィブルワーク": {
+    "合計アーマー": "10%",
+    "アーマー自動回復": "1%",
+    "シールドHP": "50%"
   },
-  "Future Initiative": {
-    "Repair Skills": "30%",
-    "Skill Duration": "30%",
-    "Skill Haste": "15%"
+  "フューチャーイニシアティブ": {
+    "スキル修復": "30%",
+    "スキル持続時間": "30%",
+    "スキルヘイスト": "15%"
   },
-  "Hard Wired": {
-    "Skill Haste": "15%",
-    "Repair Skills": "30%",
-    "Skill Damage": "15%"
+  "ハードワイヤード": {
+    "スキルヘイスト": "15%",
+    "スキル修復": "30%",
+    "スキルダメージ": "15%"
   },
-  "Heartbreaker": {
-    "Assault Rifle Damage": "15%",
-    "LMG Damage": "15%",
-    "Weapon Handling": "15%"
+  "ハートブレイカー": {
+    "アサルトライフルダメージ": "15%",
+    "LMGダメージ": "15%",
+    "武器ハンドリング": "15%"
   },
-  "Hotshot": {
-    "Marksman Rifle Damage": "30%",
-    "Weapon Handling": "30%",
-    "Headshot Damage": "30%"
+  "ホットショット": {
+    "マークスマンライフルダメージ": "30%",
+    "武器ハンドリング": "30%",
+    "ヘッドショットダメージ上昇": "30%"
   },
-  "Hunter's Fury": {
-    "SMG Damage": "15%",
-    "Shotgun Damage": "15%",
-    "Armor on Kill %": "20%",
-    "Health on Kill %": "50%"
+  "ハンターズフューリー": {
+    "SMGダメージ": "15%",
+    "ショットガンダメージ": "15%",
+    "キルによるアーマー": "20%",
+    "キル時HP回復": "50%"
   },
-  "Measured Assembly": {
-    "Skill Haste": "15%",
-    "Repair Skills": "60%",
-    "Explosive Resistance": "40%"
+  "メジャードアセンブリー": {
+    "スキルヘイスト": "15%",
+    "スキル修復": "60%",
+    "爆発物耐性": "40%"
   },
-  "Negotiator's Dilemma": {
-    "Critical Hit Chance": "15%",
-    "Critical Hit Damage": "20%"
+  "ネゴシエーター・ジレンマ": {
+    "クリティカル率": "15%",
+    "クリティカルダメージ": "20%"
   },
-  "Ongoing Directive": {
-    "Status Effects": "15%",
-    "Reload Speed": "30%"
+  "オンゴーイングディレクティブ": {
+    "ステータス効果": "15%",
+    "リロード速度": "30%"
   },
-  "Refactor": {
-    "Status Effects": "15%",
-    "Skill Damage": "25%"
+  "オルティス：イクスロ" : {
+    "炎上持続時間増加" : "20%",
+    "スキルHP" : "15%",
+    "炎上ダメージ" : "40%"
   },
-  "Rigger": {
-    "Skill Haste": "15%",
-    "Skill Duration": "15%"
+  "リファクター": {
+    "ステータス効果": "15%",
+    "スキルダメージ": "25%"
   },
-  "Striker's Battlegear": {
-    "Weapon Handling": "15%",
-    "Rate of Fire %": "15%"
+  "リガー": {
+    "スキルヘイスト": "15%",
+    "スキル持続時間": "15%"
   },
-  "System Corruption": {
-    "Armor on Kill %": "15%",
-    "Pulse Resistance": "40%",
-    "Disrupt Resistance": "40%"
+  "ストライカーバトルギア": {
+    "武器ハンドリング": "15%",
+    "連射速度": "15%"
   },
-  "Tip of the Spear": {
-    "Signature Weapon Damage": "20%",
-    "Weapon Damage": "10%"
+  "システムコラプション": {
+    "キルによるアーマー": "15%",
+    "Pulse耐性": "40%",
+    "電波妨害耐性": "40%"
   },
-  "Tipping Scales": {
-    "Magazine Size": "30%",
-    "LMG Damage": "30%"
+  "スピアーティップ": {
+    "シグネチャーウェポンのダメージ": "の0%",
+    "武器ダメージ上昇": "10%"
   },
-  "True Patriot": {
-    "Ammo Capacity": "30%",
-    "Magazine Size": "30%"
+  "ティッピングスケール": {
+    "装弾数": "30%",
+    "LMGダメージ": "30%"
   },
-  "Umbra Initiative": {
-    "Critical Hit Chance": "15%",
-    "Reload Speed": "30%"
+  "トゥルーパトリオット": {
+    "弾薬数": "30%",
+    "装弾数": "30%"
   },
-  "Virtuoso": {
-    "Weapon Handling": "15%",
-    "Magazine Size": "15%",
-    "Weapon Damage": "15%"
+  "アンブライニシアティブ": {
+    "クリティカル率": "15%",
+    "リロード速度": "30%"
+  },
+  "ヴィルトゥオーゾ": {
+    "武器ハンドリング": "15%",
+    "装弾数": "15%",
+    "武器ダメージ上昇": "15%"
   }
 }
