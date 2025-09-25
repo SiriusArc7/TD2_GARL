@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from '/vite.svg?import'
 import './App.css'
 
 function App() {
@@ -67,7 +67,13 @@ function App() {
       setGearData(allData);
       setBrands(brandsData);
       setGears(gearsData);
-      setEquipmentBackgrounds(backgroundsData);
+
+      // Prepend base URL to all image paths
+      const backgroundsWithBaseUrl = {};
+      Object.entries(backgroundsData).forEach(([key, value]) => {
+        backgroundsWithBaseUrl[key] = value.startsWith('http') ? value : `${baseUrl}${value}`;
+      });
+      setEquipmentBackgrounds(backgroundsWithBaseUrl);
     }).catch(error => console.error('Error loading data:', error));
   }, [currentLanguage]);
 
