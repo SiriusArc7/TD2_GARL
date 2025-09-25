@@ -1,0 +1,172 @@
+{
+  "5.11 Tactical": {
+    "Health": "30%",
+    "Incoming Repairs": "30%",
+    "Hazard Protection": "30%"
+  },
+  "Airaldi Holdings": {
+    "Marksman Rifle Damage": "10%",
+    "Headshot Damage": "13%",
+    "Damage to Armor": "5%"
+  },
+  "Alps Summit Armaments": {
+    "Repair Skills": "18%",
+    "Skill Duration": "30%",
+    "Skill Haste": "30%"
+  },
+  "Badger Tuff": {
+    "Shotgun Damage": "10%",
+    "Total Armor": "5%",
+    "Armor on Kill %": "15%"
+  },
+  "Belstone Armory": {
+    "Armor Regeneration": "1%",
+    "Armor on Kill %": "10%",
+    "Incoming Repairs": "45%"
+  },
+  "Brazos de Arcabuz": {
+    "Skill Haste": "10%",
+    "Skill Tier": "1%",
+    "Magazine Size": "50%"
+  },
+  "Ceska Vyroba s.r.o.": {
+    "Critical Hit Chance": "8%",
+    "Hazard Protection": "20%",
+    "Health": "90%"
+  },
+  "China Light Industries Corporation": {
+    "Explosive Damage": "15%",
+    "Skill Haste": "20%",
+    "Status Effects": "25%"
+  },
+  "Douglas & Harding": {
+    "Pistol Damage": "20%",
+    "Stability": "30%",
+    "Accuracy": "50%"
+  },
+  "Electrique": {
+    "Status Effects": "10%",
+    "Shock Resistance": "20%",
+    "SMG Damage": "30%"
+  },
+  "Empress International": {
+    "Skill Health": "10%",
+    "Skill Damage": "10%",
+    "Skill Efficiency": "8%"
+  },
+  "Fenris Group AB": {
+    "Assault Rifle Damage": "10%",
+    "Reload Speed": "30%",
+    "Stability": "50%"
+  },
+  "Gila Guard": {
+    "Total Armor": "5%",
+    "Health": "60%",
+    "Armor Regeneration": "2%"
+  },
+  "Golan Gear Ltd": {
+    "Status Effects": "10%",
+    "Armor Regeneration": "1.5%",
+    "Total Armor": "10%"
+  },
+  "Grupo Sombra S.A.": {
+    "Critical Hit Damage": "13%",
+    "Explosive Damage": "20%",
+    "Headshot Damage": "13%"
+  },
+  "Habsburg Guard": {
+    "Headshot Damage": "13%",
+    "Marksman Rifle Damage": "20%",
+    "Status Effects": "25%"
+  },
+  "Hana-U Corporation": {
+    "Skill Haste": "10%",
+    "Skill Damage": "10%",
+    "Weapon Damage": "15%"
+  },
+  "Imminence Armaments": {
+    "Weapon Damage": "5%",
+    "Increased Threat": "100%",
+    "Pistol Damage": "60%"
+  },
+  "Legatus S.P.A.": {
+    "Swap Speed": "30%",
+    "Optimal Range": "50%",
+    "Weapon Damage": "15%"
+  },
+  "Lengmo": {
+    "Explosive Resistance": "20%",
+    "Skill Health": "20%",
+    "LMG Damage": "30%"
+  },
+  "Murakami Industries": {
+    "Skill Duration": "15%",
+    "Repair Skills": "35%",
+    "Skill Damage": "18%"
+  },
+  "Overlord Armaments": {
+    "Rifle Damage": "10%",
+    "Accuracy": "30%",
+    "Weapon Handling": "30%"
+  },
+  "Palisade Steelworks": {
+    "Armor on Kill %": "10%",
+    "Health": "60%",
+    "Skill Tier": "1%"
+  },
+  "Petrov Defense Group": {
+    "LMG Damage": "10%",
+    "Weapon Handling": "15%",
+    "Ammo Capacity": "50%"
+  },
+  "Providence Defense": {
+    "Headshot Damage": "13%",
+    "Critical Hit Chance": "8%",
+    "Critical Hit Damage": "13%"
+  },
+  "Richter & Kaiser GmbH": {
+    "Incoming Repairs": "15%",
+    "Explosive Resistance": "40%",
+    "Repair Skills": "52%"
+  },
+  "Shiny Monkey Gear": {
+    "Skill Duration": "15%",
+    "Skill Efficiency": "5%",
+    "Repair Skills": "52%"
+  },
+  "Sokolov Concern": {
+    "SMG Damage": "10%",
+    "Critical Hit Damage": "13%",
+    "Critical Hit Chance": "8%"
+  },
+  "Urban Lookout": {
+    "Accuracy": "10%",
+    "Skill Duration": "30%",
+    "Marksman Rifle Damage": "30%"
+  },
+  "Uzina Getica": {
+    "Total Armor": "5%",
+    "Armor on Kill %": "10%",
+    "Hazard Protection": "30%"
+  },
+  "Walker, Harris & Co.": {
+    "Weapon Damage": "5%",
+    "Damage to Armor": "5%",
+    "Damage to Health": "10%"
+  },
+  "Wyvern Wear": {
+    "Skill Damage": "8%",
+    "Status Effects": "18%",
+    "Skill Duration": "45%"
+  },
+  "Yaahl Gear": {
+    "Hazard Protection": "10%",
+    "Weapon Damage": "10%",
+    "Pulse Resistance": "40%"
+  },
+  "Zwiadowka Sp. z o.o.": {
+    "Magazine Size": "15%",
+    "Rifle Damage": "20%",
+    "Weapon Handling": "30%"
+  }
+}
