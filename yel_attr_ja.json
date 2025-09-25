@@ -1,70 +1,16 @@
-{
-  "0": {
-    "attr": "Repair Skills",
-    "core": "yellow"
-  },
-  "1": {
-    "attr": "Burn Duration",
-    "core": "yellow"
-  },
-  "2": {
-    "attr": "Burn Damage",
-    "core": "yellow"
-  },
-  "3": {
-    "attr": "Status Effects",
-    "core": "yellow"
-  },
-  "4": {
-    "attr": "Skill Health",
-    "core": "yellow"
-  },
-  "5": {
-    "attr": "Skill Damage",
-    "core": "yellow"
-  },
-  "6": {
-    "attr": "Skill Haste",
-    "core": "yellow"
-  },
-  "7": {
-    "attr": "Skill Duration",
-    "core": "yellow"
-  },
-  "8": {
-    "attr": "Shield Health",
-    "core": "yellow"
-  },
-  "9": {
-    "attr": "Swap speed",
-    "core": "yellow"
-  },
-  "10": {
-    "attr": "Optimal Range",
-    "core": "yellow"
-  },
-  "11": {
-    "attr": "Swap speedArmor",
-    "core": "yellow"
-  },
-  "12": {
-    "attr": "Skill Tier",
-    "core": "yellow"
-   },
-  "13": {
-    "attr": "Skill Efficiency",
-    "core": "yellow"
-   },
-    "14": {
-        "attr": "Increased Threat",
-        "core": "yellow"
-     },
-    "15": {
-        "attr": "Burn Duration",
-        "core": "yellow"
-     },
-    "16": {
-        "attr": "Burn Damage",
-        "core": "yellow"
-     }
-}
+[
+    {"attr": "スキル修復"},
+    {"attr": "炎上持続時間増加"},
+    {"attr": "炎上ダメージ"},
+    {"attr": "ステータス効果"},
+    {"attr": "スキルHP"},
+    {"attr": "スキルダメージ"},
+    {"attr": "スキルヘイスト"},
+    {"attr": "スキル持続時間"},
+    {"attr": "シールドHP"},
+    {"attr": "切り替え速度"},
+    {"attr": "最適射程"},
+    {"attr": "スキルクラス"},
+    {"attr": "スキル効率"},
+    {"attr": "脅威上昇"}
+]

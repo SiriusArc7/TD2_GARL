@@ -1,46 +1,13 @@
-{
-  "0": {
-    "attr": "Hazard Protection",
-    "core": "blue"
-  },
-  "1": {
-    "attr": "Armor on Kill %",
-    "core": "blue"
-  },
-  "2": {
-    "attr": "Health on Kill %",
-    "core": "blue"
-  },
-  "3": {
-    "attr": "Pulse Resistance",
-    "core": "blue"
-  },
-  "4": {
-    "attr": "Disrupt Resistance",
-    "core": "blue"
-  },
-  "5": {
-    "attr": "Total Armor",
-    "core": "blue"
-  },
-  "6": {
-    "attr": "Health",
-    "core": "blue"
-  },
-  "7": {
-    "attr": "Incoming Repairs",
-    "core": "blue"
-  },
-  "8": {
-    "attr": "Armor Regeneration",
-    "core": "blue"
-  },
-  "9": {
-    "attr": "Explosive Resistance",
-    "core": "blue"
-  },
-  "10": {
-    "attr": "Shock Resistance",
-    "core": "blue"
-  }
-}
+[
+    {"attr": "状態異常耐性"},
+    {"attr": "キルによるアーマー"},
+    {"attr": "キル時HP回復"},
+    {"attr": "Pulse耐性"},
+    {"attr": "電波妨害耐性"},
+    {"attr": "合計アーマー"},
+    {"attr": "HP"},
+    {"attr": "修復量"},
+    {"attr": "アーマー回復"},
+    {"attr": "爆発物耐性"},
+    {"attr": "ショック耐性"}
+]
