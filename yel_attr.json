@@ -8,9 +8,8 @@
     {"attr": "Skill Haste"},
     {"attr": "Skill Duration"},
     {"attr": "Shield Health"},
-    {"attr": "Swap speed"},
+    {"attr": "Swap Speed"},
     {"attr": "Optimal Range"},
-    {"attr": "Swap speedArmor"},
     {"attr": "Skill Tier"},
     {"attr": "Skill Efficiency"},
     {"attr": "Increased Threat"}

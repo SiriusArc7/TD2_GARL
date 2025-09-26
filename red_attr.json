@@ -5,7 +5,6 @@
   {"attr": "SMG Damage"},
   {"attr": "Shotgun Damage"},
   {"attr": "LMG Damage"},
-  {"attr": "Marksman Rifle Damage"},
   {"attr": "Rifle Damage"},
   {"attr": "Marksman Rifle Damage"},
   {"attr": "Signature Weapon Damage"},
@@ -18,8 +17,8 @@
   {"attr": "Stability"},
   {"attr": "Accuracy"},
   {"attr": "Rate of Fire %"},
-  {"attr": "Reload Speed %"},
-  {"attr": "Magazine Size %"},
+  {"attr": "Reload Speed"},
+  {"attr": "Magazine Size"},
   {"attr": "Ammo Capacity"},
   {"attr": "Explosive Damage"}
 ]
