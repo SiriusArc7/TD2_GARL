@@ -191,7 +191,7 @@ function App() {
             return (
               <div key={`${type}-${name}`} className={type} style={{
                 width: '200px',
-                height: '150px',
+                height: '180px',
                 border: `1px solid ${hasSelected ? 'yellow' : 'black'}`,
                 padding: '10px',
                 margin: '5px',
