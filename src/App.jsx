@@ -147,26 +147,28 @@ function App() {
             </button>
           </div>
         </div>
-        {gearData.filter(item =>
-          gearSearchTerm === '' || item.attr.toLowerCase().includes(gearSearchTerm.toLowerCase())
-        ).sort((a, b) => {
-          const aSelected = selectedAttrs.includes(a.attr);
-          const bSelected = selectedAttrs.includes(b.attr);
-          if (aSelected && !bSelected) return -1;
-          if (!aSelected && bSelected) return 1;
-          return a.originalIndex - b.originalIndex;
-        }).map((item, index) => (
-          <button
-            key={index}
-            className={item.core}
-            onClick={() => setSelectedAttrs(prev => prev.includes(item.attr) ? prev.filter(a => a !== item.attr) : [...prev, item.attr])}
-            style={{
-              color: item.core === 'red' ? '#dc3545' :
-                     item.core === 'blue' ? '#007bff' :
-                     item.core === 'yellow' ? '#ffc107' : 'inherit'
-            }}
-          >{selectedAttrs.includes(item.attr) ? '✅' : ''}{item.attr}</button>
-        ))}
+        <div className="attribute-buttons-container">
+          {gearData.filter(item =>
+            gearSearchTerm === '' || item.attr.toLowerCase().includes(gearSearchTerm.toLowerCase())
+          ).sort((a, b) => {
+            const aSelected = selectedAttrs.includes(a.attr);
+            const bSelected = selectedAttrs.includes(b.attr);
+            if (aSelected && !bSelected) return -1;
+            if (!aSelected && bSelected) return 1;
+            return a.originalIndex - b.originalIndex;
+          }).map((item, index) => (
+            <button
+              key={index}
+              className={item.core}
+              onClick={() => setSelectedAttrs(prev => prev.includes(item.attr) ? prev.filter(a => a !== item.attr) : [...prev, item.attr])}
+              style={{
+                color: item.core === 'red' ? '#dc3545' :
+                       item.core === 'blue' ? '#007bff' :
+                       item.core === 'yellow' ? '#ffc107' : 'inherit'
+              }}
+            >{selectedAttrs.includes(item.attr) ? '✅' : ''}{item.attr}</button>
+          ))}
+        </div>
       </div>
       <div class="selector">
         <div style={{marginBottom: '10px'}}>
