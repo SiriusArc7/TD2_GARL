@@ -12,5 +12,6 @@
     {"attr": "Optimal Range"},
     {"attr": "Skill Tier"},
     {"attr": "Skill Efficiency"},
-    {"attr": "Increased Threat"}
+    {"attr": "Increased Threat"},
+    {"attr": "Rate of Fire %"}
 ]
