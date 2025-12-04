@@ -32,6 +32,7 @@ function App() {
     en: {
       title: "GARL",
       subtitle: "Gear Attributes Reverse-Lookup by @SiriusArc7",
+      latestUpdate: "Dec. 04 2025: Added Unit Alloys & Concentrated Co.",
       searchPlaceholder: "Search attributes...",
       hideMatching: "Hide non-matching items",
       clearSearch: "Clear search"
@@ -39,6 +40,7 @@ function App() {
     ja: {
       title: "GARL",
       subtitle: "装備特性逆引きツール 製作者: @SiriusArc7",
+      latestUpdate: "2025/12/04: ユニット合金 & コンセントレイテッド社 追加",
       searchPlaceholder: "装備特性を検索...",
       hideMatching: "一致しない装備を非表示",
       clearSearch: "検索をクリア"
@@ -80,7 +82,7 @@ function App() {
   return (
     <>
     <div class="title">
-      <h1>{t.title} - The Division 2 Gear Lookup</h1><h3>{t.subtitle}</h3>
+      <h1>{t.title} - The Division 2 Gear Lookup</h1><h3>{t.subtitle}</h3><h3>{t.latestUpdate}</h3>
     </div>
     <div class="main">
       <div class="gear-bonus">
