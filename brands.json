@@ -140,7 +140,7 @@
     "Critical Hit Chance": "8%"
   },
   "Unit Alloys": {
-    "Rate of Fire": "15%",
+    "Rate of Fire %": "15%",
     "Assault Rifle Damage": "30%",
     "Magazine Size": "30%"
   },
