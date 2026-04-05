@@ -129,6 +129,11 @@
     "Explosive Resistance": "40%",
     "Repair Skills": "52%"
   },
+  "Royal Works": {
+    "Weapon Handling": "5%",
+    "Magazine Size": "32%",
+    "Critical Hit Damage": "15%"
+  },
   "Shiny Monkey Gear": {
     "Skill Duration": "15%",
     "Skill Efficiency": "5%",

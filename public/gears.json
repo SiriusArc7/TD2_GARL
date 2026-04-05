@@ -22,6 +22,12 @@
     "Weapon Damage": "10%",
     "Weapon Handling": "30%"
   },
+  "Core Strength": {
+    "Weapon Handling": "10%",
+    "Weapon Damage": "5%",
+    "Total Armor": "5%",
+    "Skill Efficiency": "5%"
+  },
   "Eclipse Protocol": {
     "Status Effects": "15%",
     "Skill Haste": "15%",
