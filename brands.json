@@ -44,6 +44,11 @@
     "Stability": "30%",
     "Accuracy": "50%"
   },
+  "Edelweiss GPz": {
+    "Repair Skills": "18%",
+    "Skill Haste": "20%",
+    "Skill Efficiency": "8%"
+  },
   "Electrique": {
     "Status Effects": "10%",
     "Shock Resistance": "20%",

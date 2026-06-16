@@ -82,6 +82,10 @@
     "Skill Health" : "15%",
     "Burn Damage" : "40%"
   },
+  "Ortiz: Reficere" : {
+    "Skill Efficiency" : "8%",
+    "Repair Skills" : "15%"
+  },
   "Refactor": {
     "Status Effects": "15%",
     "Skill Damage": "25%"
