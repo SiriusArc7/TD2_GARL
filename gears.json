@@ -1,18 +1,19 @@
 {
   "Aces & Eights": {
-    "Marksman Rifle Damage": "15%",
-    "Rifle Damage": "15%",
-    "Headshot Damage": "30%"
+    "Marksman Rifle Damage": "30%",
+    "Rifle Damage": "30%",
+    "Headshot Damage": "30%",
+    "Weapon Handling": "30%"
   },
   "Aegis": {
     "Health": "70%",
     "Total Armor": "15%"
   },
   "Breaking Point": {
-    "Rifle Damage": "25%",
-    "Marksman Rifle Damage": "25%",
+    "Rifle Damage": "30%",
+    "Marksman Rifle Damage": "30%",
     "Headshot Damage": "30%",
-    "Weapon Handling": "15%"
+    "Weapon Handling": "30%"
   },
   "Cavalier": {
     "Hazard Protection": "30%",
@@ -32,6 +33,10 @@
     "Status Effects": "15%",
     "Skill Haste": "15%",
     "Hazard Protection": "30%"
+  },
+  "Ember Engine": {
+    "Skill Efficiency": "8%",
+    "Status Effects": "30%"
   },
   "Foundry Bulwark": {
     "Total Armor": "10%",
@@ -84,7 +89,7 @@
   },
   "Ortiz: Reficere" : {
     "Skill Efficiency" : "8%",
-    "Repair Skills" : "15%"
+    "Repair Skills" : "60%"
   },
   "Refactor": {
     "Status Effects": "15%",
@@ -112,7 +117,7 @@
     "LMG Damage": "30%"
   },
   "True Patriot": {
-    "Ammo Capacity": "30%",
+    "Weapon Handling": "15%",
     "Magazine Size": "30%"
   },
   "Umbra Initiative": {

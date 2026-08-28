@@ -9,5 +9,6 @@
     {"attr": "Incoming Repairs"},
     {"attr": "Armor Regeneration"},
     {"attr": "Explosive Resistance"},
-    {"attr": "Shock Resistance"}
+    {"attr": "Shock Resistance"},
+    {"attr": "Protection from Elites"}
 ]
